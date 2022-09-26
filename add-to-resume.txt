@@ -7,3 +7,4 @@
 - Capitalize Computer Science
 - Make the most recent school at the top
 - Change Suffolk Community College entry in school to Major: Computer Science
+- Suffolk duration 2019-PRESENT
