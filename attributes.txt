@@ -1,0 +1,19 @@
+attributes for images
+
+Java
+<a href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
+
+JS
+<a href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Smashicons - Flaticon</a>
+
+HTML
+<a href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
+
+OOP
+<a href="https://www.flaticon.com/free-icons/object" title="object icons">Object icons created by juicy_fish - Flaticon</a>
+
+Data Structures
+<a href="https://www.flaticon.com/free-icons/structure" title="structure icons">Structure icons created by Eucalyp - Flaticon</a>
+
+css
+<a href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Smashicons - Flaticon</a>

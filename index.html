@@ -5,109 +5,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicon.ico">
     <title>Kevin Earls's Resume</title>
 </head>
 <body>
-    <table cellspacing="10">
-        <tr>
-            <td><img src="content/me.png" alt="A picture of Kevin Earls"></td>
-            <td><h1>Kevin Earls</h1>
-            A computer science major studying at <a href="https://sunysuffolk.edu"><strong>Suffolk Community College.</strong></a></td>
-        </tr>
-    </table>
+    <div class="bio">
+        <div class="bio-content">
+            <img class="portrait" src="content/me.png" alt="A picture of Kevin Earls">
+            <div class="bio-text">
+                <h1>Kevin Earls</h1>
+                <p>A Computer Science major studying at
+                <a href="https://sunysuffolk.edu"><strong>Suffolk County Community College.</strong></a></p>
+            </div>  
+        </div>
+    </div>
+
+    <div class="skills">
+        <h2>Skills</h2>
+        <table class="skill-table">
+            <tr>
+                <td>
+                    <div class="skill-entry">
+                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="java-img">
+                        <h3>Java</h3>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill-entry">
+                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136530.png" alt="javascript-img">
+                        <h3>Javascript</h3>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill-entry">
+                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5815/5815526.png" alt="oop-img">
+                        <h3>OOP</h3>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="html5-img">
+                    <h3>HTML</h3>
+                </td>
+                <td>
+                    <div class="skill-entry">
+                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136527.png" alt="css-img">
+                        <h3>CSS</h3>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill-entry">
+                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/2857/2857303.png" alt="datastructures-img">
+                        <h3>Data Structures</h3>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <div class="education">
+        <h2>Education</h2>
+        <table class="education-table">
+            <thead>
+                <th>School</th>
+                <th>Year</th>
+            </thead>
+            <tr>
+                <td>Major: Computer Science at Suffolk County Community College</td>
+                <td>9/2019 - Present</td>
+            </tr>
+        </table>
+    </div>
+
     
+
+    <hr>
+
+
+    <div class="projects">
+        <h2>Projects</h2>
+        <div class="project-entry">
+            <a href="https://github.com/KevinIsNotReal/StockTracker"><h3>Stock Tracker</h3></a>
+            <p><strong>Java Project | Completed: Fall 2021</strong><br>
+            This program allows the user to track stocks of their choice and saves their data to a local user database.</p>
+        </div>
+
+        <div class="project-entry">
+            <a href="https://github.com/KevinIsNotReal/CollegeAdmission"><h3>College Admission Database</h3></a>
+            <p><strong>Java Project | Completed: Spring 2022</strong><br>
+            This program manages college admissions by allowing users to register and input data such as:
+             family income, GPA, and SAT score in order to determine eligability.  The user data is stored locally in a database.</p>
+        </div>
+        
+       
+    </div>
+
+    <hr>
+
+    <div class="courses">
+        <h2>Courses</h2>
+        <table class="courses-table">
+            <tr>
+                <td>CSE118</td>
+                <td>Fundamentals of Programming</td>
+            </tr>
+            <tr>
+                <td>CSE148</td>
+                <td>Object Oriented Programming</td>
+            </tr>
+            <tr>
+                <td>CSE218</td>
+                <td>Data Structures and Algorithms</td>
+            </tr>
+            <tr>
+                <td>CSE222</td>
+                <td>Computer Architecture and Organization</td>
+            </tr>
+            <tr>
+                <td>CSE248</td>
+                <td>Advanced Object-Orientated Programming</td>
+            </tr>
+            <tr>
+                <td>MAT141</td>
+                <td>Calculus with Analytic Geometry I</td>
+            </tr>
+            <tr>
+                <td>MAT142</td>
+                <td>Calculus with Analytic Geometry II</td>
+            </tr>
+            <tr>
+                <td>MAT205</td>
+                <td>Discrete Mathematics</td>
+            </tr>
+            <tr>
+                <td>MAT210</td>
+                <td>Applied Linear Algebra</td>
+            </tr>
+            <tr>
+                <td>PHY130 + 132</td>
+                <td>Physics A: Mechanics / Lab</td>
+            </tr>
+            <tr>
+                <td>PHY220 + 222</td>
+                <td>Physics B: Fluids, Oscillations, Waves, Optics, Thermodynamics / Lab</td>
+            </tr>
+            <tr>
+                <td>PHY230 + 232</td>
+                <td>Physics C: Electricity & Magnetism / Lab</td>
+            </tr>
+
+        </table>
+    </div>
+    <hr>
     
+    <div class="footer">
+        <a class="btn" href="mailto:earlskev@gmail.com">CONTACT ME</a>
+        <p>© Kevin Earls</p>
+        <a class="credits" href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
+        <a class="credits" href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Smashicons - Flaticon</a>
+        <a class="credits" href="https://www.flaticon.com/free-icons/html-5" title="html 5 icons">Html 5 icons created by Freepik - Flaticon</a>
+        <a class="credits" href="https://www.flaticon.com/free-icons/object" title="object icons">Object icons created by juicy_fish - Flaticon</a>
+        <a class="credits" href="https://www.flaticon.com/free-icons/structure" title="structure icons">Structure icons created by Eucalyp - Flaticon</a>
+        <a class="credits" href="https://www.flaticon.com/free-icons/css" title="css icons">Css icons created by Smashicons - Flaticon</a>
+    </div>
     
-    <hr>
-    <h2>Skills</h2>
-    <table>
-        <tr>
-            <td>Java</td>
-            <td>★★★★★</td>
-            <td>JavaScript</td>
-            <td>★★★★☆</td>
-        </tr>
-        <tr>
-            <td>Object-Orientated Programming</td>
-            <td>★★★★★</td>
-            <td>Data Structures</td>
-            <td>★★★★☆</td>
-        </tr>
-        <tr>
-            <td>HTML</td>
-            <td>★★★★☆</td>
-            <td>CSS</td>
-            <td>★★★★☆</td>
-        </tr>
-    </table>
-    <hr>
-    <h2>Education</h2>
-    <table cellspacing="5">
-        <thead>
-            <th>School</th>
-            <th>Year</th>
-        </thead>
-        <tr>
-            <td>Islip High School Graduate</td>
-            <td>2019</td>
-        </tr>
-        <tr>
-            <td>Major in Computer Science at Suffolk Community College</td>
-            <td>2019 - 2023</td>
-        </tr>
-    </table>
-
-    <hr>
-    <h2>Projects</h2>
-    <ol>
-        <li><a href="https://github.com/KevinIsNotReal/StockTracker">Stock Tracker</a></li>
-        <li><a href="https://github.com/KevinIsNotReal/CollegeAdmission">College Admission Database</a></li>
-    </ol>
-
-    <hr>
-
-    <h2>Classes Taken</h2>
-    <table>
-        <tr>
-            <td>CSE118</td>
-            <td>Fundamentals of Programming</td>
-        </tr>
-        <tr>
-            <td>CSE148</td>
-            <td>Object Oriented Programming</td>
-        </tr>
-        <tr>
-            <td>CSE218</td>
-            <td>Data Structures and Algorithms</td>
-        </tr>
-        <tr>
-            <td>CSE222</td>
-            <td>Computer Architecture and Organization</td>
-        </tr>
-        <tr>
-            <td>CSE248</td>
-            <td>Advanced Object-Orientated Programming</td>
-        </tr>
-        <tr>
-            <td>MAT141</td>
-            <td>Calculus with Analytic Geometry I</td>
-        </tr>
-        <tr>
-            <td>MAT142</td>
-            <td>Calculus with Analytic Geometry II</td>
-        </tr>
-        <tr>
-            <td>MAT205</td>
-            <td>Discrete Mathematics</td>
-        </tr>
-        <tr>
-            <td>MAT210</td>
-            <td>Applied Linear Algebra</td>
-        </tr>
-
-    </table>
-    <hr>
-    <a href="contact.html"><strong>Contact Me</strong></a>
 
 </body>
 

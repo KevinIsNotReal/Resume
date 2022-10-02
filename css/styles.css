@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    text-align:center;
+    background-color:rgb(147, 201, 255);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+h1 {
+    font-size:3em;
+}
+
+h2 {
+    font-size:2em;
+}
+
+h3 {
+    font-size:1.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+hr {
+    border-style:none;
+    border-top-style:dashed;
+    border-top-width: 5px;
+    border-color:rgb(83, 148, 212);
+    width:25%;
+}
+
+.bio {
+    background-color:rgb(101, 161, 221);
+    padding:70px;
+    margin:auto;
+    border-bottom:10px;
+    border-color:black;
+}
+
+.bio-content {
+    width:40%;
+    margin:auto;
+    text-align:left;
+}
+
+.bio-text {
+    padding-top:20px;
+}
+
+.portrait{
+    border-radius: 100%;
+    float:left;
+    margin:20px;
+}
+
+.skills { 
+    margin:0px auto 0px auto;
+}
+
+.skill-table{
+    margin:0px auto 0px auto;
+    
+}
+
+.skill-entry {
+    padding: 10px;
+}
+
+.skill-image {
+    width:150px;
+}
+
+.education{
+    margin:0px auto 0px auto;
+    width:50%;
+    padding:10px 0px 20px 0px;
+}
+
+.education-table{
+    margin:0px auto 0px auto;
+    text-align:center;
+}
+
+.courses {
+    padding-bottom:20px;
+}
+
+.courses-table {
+    position:relative;
+    left:100px;
+    margin:0px auto 0px auto;
+    width:45%;
+    text-align:left;
+}
+
+.projects {
+    width:50%;
+    margin:auto;
+}
+
+.footer {
+    background-color:rgb(69, 127, 194);
+    padding:50px;
+}
+
+.credits {
+    color:rgb(34, 34, 34);
+    font-size:.75em;
+}
+
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #236791);
+    background-image: -moz-linear-gradient(top, #3498db, #236791);
+    background-image: -ms-linear-gradient(top, #3498db, #236791);
+    background-image: -o-linear-gradient(top, #3498db, #236791);
+    background-image: linear-gradient(to bottom, #3498db, #236791);
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
