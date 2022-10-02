@@ -1,7 +1,8 @@
 body {
     margin: 0;
     text-align:center;
-    background-color:rgb(147, 201, 255);
+    /*rgb(147, 201, 255)*/
+    background-color:rgb(79, 135, 192);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
@@ -25,12 +26,12 @@ hr {
     border-style:none;
     border-top-style:dashed;
     border-top-width: 5px;
-    border-color:rgb(83, 148, 212);
+    border-color:rgb(55, 118, 180);
     width:25%;
 }
 
 .bio {
-    background-color:rgb(101, 161, 221);
+    background-color:rgb(59, 115, 172);
     padding:70px;
     margin:auto;
     border-bottom:10px;
