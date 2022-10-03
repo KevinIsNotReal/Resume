@@ -87,11 +87,22 @@ hr {
     border-spacing:20px 0px;
 }
 
+.education-table:hover{
+    background-color:white;
+    color:black;
+    outline-style:solid;
+    box-shadow: 20px 20px 0px 0px #000000;
+    margin:0px auto 0px auto;
+    text-align:center;
+    border-spacing:20px 0px;
+}
+
 .education-entry {
 
 }
 
 .education-header {
+
 }
 
 .courses {

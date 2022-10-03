@@ -1,3 +1,6 @@
 - add objective
 - add descriptions of projects, including Language written in
 - Change Suffolk Community College entry in school to Major: Computer Science
+- improve readability: increase font size, more contrast.
+
+- Add Bootstrap, Sections 6 & 7
