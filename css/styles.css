@@ -6,6 +6,15 @@ body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+.primary-color {
+    background-color:#9CAFB3;
+}
+
+.secondary-color {
+    background-color:#424B54;
+    color:white;
+}
+
 h1 {
     font-size:3em;
 }
@@ -22,45 +31,69 @@ p {
     font-size: 1.2em;
 }
 
-hr {
-    border-style:none;
-    border-top-style:dashed;
-    border-top-width: 5px;
-    border-color:rgb(55, 118, 180);
-    width:25%;
+.primary-color .section-heading {
+    color:black;
+    text-shadow: 1px 1px white;
+    font-size:2em;
+    padding:2%;
+}
+
+.secondary-color .section-heading {
+    color:white;
+    text-shadow: 2px 2px black;
+    font-size:2em;
+    padding:2%;
+}
+
+.pri {
+    background-color:rgb(56, 56, 56)
+}
+
+.sec {
+    background-color:rgb(196, 196, 196);
+    color:black;
+}
+
+.section-heading {
+    font-size:2em;
+    padding:2%;
 }
 
 .bio {
-    background-color:rgb(59, 115, 172);
-    padding:70px;
+    /*background-color:rgb(59, 115, 172);*/
+    padding:5%;
     margin:auto;
-    border-bottom:10px;
     border-color:black;
 }
 
 .bio-content {
-    width:40%;
     margin:auto;
-    text-align:left;
+    width:40%;
+    align-items:center;
+}
+
+.bio-column {
+    text-align:center;
+    align-items:center;
 }
 
 .bio-text {
-    padding-top:20px;
+    text-shadow: 5px 5px black;
 }
 
 .portrait{
     border-radius: 100%;
-    float:left;
     margin:20px;
+    box-shadow: 5px 5px black;
 }
 
 .skills { 
     margin:0px auto 0px auto;
+    padding:5% 17%;
 }
 
-.skill-table{
-    margin:0px auto 0px auto;
-    
+.skill-container {
+    padding:2%;
 }
 
 .skill-entry {
@@ -69,38 +102,48 @@ hr {
 
 .skill-image {
     width:150px;
+    margin:1px;
 }
 
 .education{
-    margin:0px auto 0px auto;
-    width:50%;
-    padding:10px 0px 20px 0px;
+    font-size: 1.2rem;
+    padding:5%;
+}
+.edu-table {
+    margin:auto;
+    width:60%;
+}
+.edu-header {
+    background-color: black;
+}
+.edu-entry {
+    background-color:rgb(56, 56, 56);
 }
 
-.education-table{
-    margin:0px auto 0px auto;
-    text-align:center;
-}
 
 .courses {
-    padding-bottom:20px;
+    padding:2% 0%;
 }
 
-.courses-table {
-    position:relative;
-    left:100px;
+.course-table {
     margin:0px auto 0px auto;
-    width:45%;
+    width:50%;
+    padding:10px;
+}
+
+.class-entry-title {
+    text-align:right;
+}
+.class-entry {
     text-align:left;
 }
 
 .projects {
-    width:50%;
+    padding:5% 20%;
     margin:auto;
 }
 
 .footer {
-    background-color:rgb(69, 127, 194);
     padding:50px;
 }
 
@@ -108,7 +151,7 @@ hr {
     color:rgb(34, 34, 34);
     font-size:.75em;
 }
-
+/*
 .btn {
     background: #3498db;
     background-image: -webkit-linear-gradient(top, #3498db, #236791);
@@ -135,3 +178,4 @@ hr {
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+*/

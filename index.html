@@ -12,84 +12,68 @@
     <title>Kevin Earls's Resume</title>
 </head>
 <body>
-    <div class="bio">
-        <div class="bio-content">
-            <img class="portrait" src="content/me.png" alt="A picture of Kevin Earls">
-            <div class="bio-text">
-                <h1>Kevin Earls</h1>
-                <p>A Computer Science major studying at
-                <a href="https://sunysuffolk.edu"><strong>Suffolk County Community College.</strong></a></p>
-            </div>  
+    <div class="bio secondary-color">
+        <div class="row bio-content">
+            <div class="bio-column col-lg-6">
+                <img class="portrait" src="content/me.png" alt="A picture of Kevin Earls">
+            </div>
+            <div class="bio-column col-lg-6">
+                <h1 class="bio-text">Kevin Earls</h1>
+            </div>
         </div>
     </div>
 
-    <div class="skills">
-        <h2>Skills</h2>
-        <table class="skill-table">
-            <tr>
-                <td>
-                    <div class="skill-entry">
-                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="java-img">
-                        <h3>Java</h3>
-                    </div>
-                </td>
-                <td>
-                    <div class="skill-entry">
-                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136530.png" alt="javascript-img">
-                        <h3>Javascript</h3>
-                    </div>
-                </td>
-                <td>
-                    <div class="skill-entry">
-                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5815/5815526.png" alt="oop-img">
-                        <h3>OOP</h3>
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="html5-img">
-                    <h3>HTML</h3>
-                </td>
-                <td>
-                    <div class="skill-entry">
-                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136527.png" alt="css-img">
-                        <h3>CSS</h3>
-                    </div>
-                </td>
-                <td>
-                    <div class="skill-entry">
-                        <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/2857/2857303.png" alt="datastructures-img">
-                        <h3>Data Structures</h3>
-                    </div>
-                </td>
-            </tr>
-        </table>
+    <div class="skills primary-color">
+        <h2 class="section-heading">Skills</h2>
+        <div class="row skill-container">
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/226/226777.png" alt="java-img">
+                <h3>Java</h3>
+            </div>
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136530.png" alt="javascript-img">
+                <h3>Javascript</h3>
+            </div>
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5815/5815526.png" alt="oop-img">
+                <h3>OOP</h3>
+            </div>
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/5968/5968267.png" alt="html5-img">
+                <h3>HTML</h3>
+            </div>
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/136/136527.png" alt="css-img">
+                <h3>CSS</h3>
+            </div>
+            <div class="col-lg-4 skill-entry">
+                <img class="skill-image" src="https://cdn-icons-png.flaticon.com/512/2857/2857303.png" alt="datastructures-img">
+                <h3>Data Structures</h3>
+            </div>
+        </div>
     </div>
 
-    <hr>
 
-    <div class="education">
-        <h2>Education</h2>
-        <table class="education-table">
-            <thead>
-                <th>School</th>
-                <th>Year</th>
-            </thead>
-            <tr>
-                <td>Major: Computer Science at Suffolk County Community College</td>
-                <td>9/2019 - Present</td>
-            </tr>
-        </table>
+    <div class="education secondary-color">
+        <h2 class="section-heading">Education</h2>
+        <div class=edu-table>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-header">Major</div>
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-header">School</div>
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-header">Year</div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-entry">Computer Science</div>
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-entry">Suffolk County Community College</div>
+                <div class="col-lg-4 col-md-4 col-sm-4 edu-entry">9/2019-Present</div>
+            </div>
+        </div>
     </div>
 
-    
-
-    <hr>
 
 
-    <div class="projects">
-        <h2>Projects</h2>
+
+    <div class="projects primary-color">
+        <h2 class="section-heading">Projects</h2>
         <div class="project-entry">
             <a href="https://github.com/KevinIsNotReal/StockTracker"><h3>Stock Tracker</h3></a>
             <p><strong>Java Project | Completed: Fall 2021</strong><br>
@@ -106,65 +90,52 @@
        
     </div>
 
-    <hr>
+    <div class="courses secondary-color">
+        <h2 class="section-heading">Courses</h2>
 
-    <div class="courses">
-        <h2>Courses</h2>
-        <table class="courses-table">
-            <tr>
-                <td>CSE118</td>
-                <td>Fundamentals of Programming</td>
-            </tr>
-            <tr>
-                <td>CSE148</td>
-                <td>Object Oriented Programming</td>
-            </tr>
-            <tr>
-                <td>CSE218</td>
-                <td>Data Structures and Algorithms</td>
-            </tr>
-            <tr>
-                <td>CSE222</td>
-                <td>Computer Architecture and Organization</td>
-            </tr>
-            <tr>
-                <td>CSE248</td>
-                <td>Advanced Object-Orientated Programming</td>
-            </tr>
-            <tr>
-                <td>MAT141</td>
-                <td>Calculus with Analytic Geometry I</td>
-            </tr>
-            <tr>
-                <td>MAT142</td>
-                <td>Calculus with Analytic Geometry II</td>
-            </tr>
-            <tr>
-                <td>MAT205</td>
-                <td>Discrete Mathematics</td>
-            </tr>
-            <tr>
-                <td>MAT210</td>
-                <td>Applied Linear Algebra</td>
-            </tr>
-            <tr>
-                <td>PHY130 + 132</td>
-                <td>Physics A: Mechanics / Lab</td>
-            </tr>
-            <tr>
-                <td>PHY220 + 222</td>
-                <td>Physics B: Fluids, Oscillations, Waves, Optics, Thermodynamics / Lab</td>
-            </tr>
-            <tr>
-                <td>PHY230 + 232</td>
-                <td>Physics C: Electricity & Magnetism / Lab</td>
-            </tr>
+        <div class="course-table">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 class-entry-title pri">CSE118</div>
+                <div class="col-lg-10 col-md-10 class-entry pri">Fundamentals of Programming</div>
 
-        </table>
+                <div class="col-lg-2 col-md-2  class-entry-title sec">CSE148</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Object Oriented Programming</div>
+                
+                <div class="col-lg-2 col-md-2  class-entry-title pri">CSE218</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry pri">Data Structures and Algorithms</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title sec">CSE222</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Computer Architecture and Organization</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title pri">CSE248</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry pri">Advanced Object-Orientated Programming</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title sec">MAT141</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Calculus with Analytic Geometry I</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title pri">MAT142</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry pri">Calculus with Analytic Geometry II</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title sec">MAT205</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Discrete Mathematics</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title pri">MAT210</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry pri">Applied Linear Algebra</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title sec">PHY130 + 132</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Physics A: Mechanics / Lab</div>
+
+                <div class="col-lg-2 col-md-2  class-entry-title pri">PHY220 + 222</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry pri">Physics B: Fluids, Oscillations, Waves, Optics, Thermodynamics / Lab</div>
+
+                <div class="col-lg-2 col-md-2 class-entry-title sec">PHY230 + 232</div>
+                <div class="col-lg-10 col-md-10 col-sm-10 class-entry sec">Physics C: Electricity & Magnetism / Lab</div>
+            </div>
+        </div>
     </div>
     
-    <div class="footer">
-        <a class="btn" href="mailto:earlskev@gmail.com">CONTACT ME</a>
+    <div class="footer primary-color">
+        <a class="btn btn-dark" href="mailto:earlskev@gmail.com" role="button">CONTACT ME</a>
         <p>© Kevin Earls</p>
         <a class="credits" href="https://www.flaticon.com/free-icons/java" title="java icons">Java icons created by Freepik - Flaticon</a>
         <a class="credits" href="https://www.flaticon.com/free-icons/javascript" title="javascript icons">Javascript icons created by Smashicons - Flaticon</a>
