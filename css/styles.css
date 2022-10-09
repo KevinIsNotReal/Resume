@@ -143,6 +143,12 @@ p {
     margin:auto;
 }
 
+.project-link {
+    color:#523536;
+    text-decoration-color: #523536;
+
+}
+
 .footer {
     padding:50px;
 }
@@ -151,6 +157,7 @@ p {
     color:rgb(34, 34, 34);
     font-size:.75em;
 }
+
 /*
 .btn {
     background: #3498db;
